@@ -8,14 +8,14 @@ void tester(int* c, int k) {
 
 int main(int argc, char* argv[]) {
 	int i = 0, j, k;
-	int x[1000];
+	int x[10001];
 
-	while(i < 1000){
+	while(i < 10001){
 		x[i] = i;
 		i++;
 	}
 
-	printf("Enter an integer between 0 to 9999: ");
+	printf("Enter an integer between 0 to 10000: ");
 	fflush(stdout);
 	scanf("%d",&k);
 

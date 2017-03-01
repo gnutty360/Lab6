@@ -5,11 +5,11 @@ void main()
 {
 	    int i=0;
 	        char arr1[ 15 ] = "Trumantiger";
-		    char arr2[ 20 ];
-		        while(i<20){
+		    char arr2[ 15 ];
+		        while(i<15){
 				        arr2[ i ] = 'A';
 					++i;
 					    }
-			    strcpy( arr1 , arr2 );
+			    strcpy( arr2 , arr1 );
 			        printf("%s",arr1);
 }
